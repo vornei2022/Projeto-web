@@ -1,0 +1,42 @@
+header{
+    background-color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 5px solid black;
+}
+section{
+    background-color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:  5px solid  burlywood;
+}
+footer {
+    background-color: hotpink;
+    font-family: fantasy;
+    border:  5px solid beige;
+}
+
+td, th{
+    border: 2px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 450px;
+  }
+
+  thead,tfoot{
+    background-color: gray;
+    
+}
+
+tbody{
+    text-align: center;
+
+}
+tbody>tr:nth-child(2n){
+    background-color: gray;
+}
+caption{
+background-color: lightyellow;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: x-large;
+}
